@@ -1,0 +1,9 @@
+{
+    "omnisharp.useModernNet": true,
+    "emmet.includeLanguages": {
+        "html": "aspnetcorerazor"
+      },
+      "files.associations": {
+        "*.cshtml": "html"
+      }
+}
