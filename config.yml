@@ -1,0 +1,74 @@
+baseURL: "" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: RingoEngine
+paginate: 5
+theme: RingoTheme
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: En
+
+    ru:
+        languageName: Ru
+        home:
+            Title: RingoEngine
+            Content: >
+                RingoEngine это быстрый движок с открытым исходным кодом для
+                сайтов с медиаконтентом который использует  asp.net для
+                динамического контента и hugo для генерации статических страниц.
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    testing: true
+    testingImages:
+        - /test-img/popular/akatsuki-hijiri-Anime-Anime-Art-artist-6437320.png
+        - /test-img/popular/ElH0M7IXXLE.jpg
+        - /test-img/popular/YJXz3nmkMsY.jpg
+        - /test-img/popular/Anime-AO-elf-Mecha-Musume-6437573.jpeg
+        - /test-img/popular/illust_80193416_20210320_014332.jpg
+        - /test-img/popular/0j1tVBqmgM.jpg
+        - /test-img/popular/Aoi-Usagi-Anime-Art-artist-Anime-6742473.jpeg
+        - /test-img/popular/kasumi-(skchkko)-Anime-Art-artist-Kongou-(Kantai-Collection)-6073152.png
+        - /test-img/popular/87354315_p0.jpg
+        - /test-img/popular/dt_6dUDUIgg.jpg
+        - /test-img/popular/vyD47DBmDBI.jpg
+    description: ""
+
+    defaultTheme: auto
+    ShowShareButtons: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    ShowToc: true
+    # comments: false
+    images: ["papermod-cover.png"]
+
+    home:
+        Title: RingoEngine
+        Content: >
+            RingoEngine is fast open-sorce engine for sites with mediacontent
+            that uses  asp.net for dynamic content management and hugo as static
+            page generator.
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/FileBin/RingoEngine"
