@@ -26,7 +26,7 @@ languages:
             Title: RingoEngine
             Content: >
                 RingoEngine это быстрый движок с открытым исходным кодом для
-                сайтов с медиаконтентом который использует  asp.net для
+                сайтов с медиаконтентом который использует ASP.NET для
                 динамического контента и hugo для генерации статических страниц.
 
 outputs:
@@ -66,7 +66,7 @@ params:
         Title: RingoEngine
         Content: >
             RingoEngine is fast open-sorce engine for sites with mediacontent
-            that uses  asp.net for dynamic content management and hugo as static
+            that uses ASP.NET for dynamic content management and hugo as static
             page generator.
 
     socialIcons:
